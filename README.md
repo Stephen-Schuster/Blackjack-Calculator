@@ -27,10 +27,10 @@
 
 # Default Arguments
 * `numShoes`: infinite for `simCareers`, undefined for `simShoes`
-* `bankroll`: $20,000
+* `bankroll`: 20000 (or $20k)
 * `successThresholdPerBankroll`: 10
 * `numCareers`: 1000
-* `minimumEV`: 20 cents
+* `minimumEV`: 0.2 (or 20 cents)
 * `minimumBetPerBankroll`: Depends on other arguments. If everything else is default, it is 0.000677
 * `numUpdates`: 100
 * `kellyBetMultiplier`: Depends on other arguments. If everything else is default, it is 0.356

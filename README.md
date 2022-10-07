@@ -9,7 +9,7 @@
 # How to use
 * Clone the repository and navigate to `Blackjack-Calculator/v7` in the terminal
 * There are 3 valid commands: `simCareers`, `simShoes`, and `getBets`
-* Run `java blackjack [command] [0 or more arguments]` and replace `[command]` with one of the 3 commands above and replace [0 or more arguments] with 0 or more arguments
+* Run `java blackjack [command] [0 or more arguments]` and replace `[command]` with one of the 3 commands above and replace `[0 or more arguments]` with 0 or more arguments
 * Arguments are formatted as `[argument name]=[argument value]`. There are 11 valid arguments, explained below
 
 # Arguments

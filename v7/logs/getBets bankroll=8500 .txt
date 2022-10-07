@@ -1,0 +1,19 @@
+
+Program start at Thu Feb 24 16:28:25 PST 2022
+Minimum bet: 10.0
+bet @ true 0: 10.0
+bet @ true 1: 10.0
+bet @ true 2: 20.0
+bet @ true 3: 55.0
+bet @ true 4: 75.0
+bet @ true 5: 90.0
+bet @ true 6: 110.0
+bet @ true 7: 130.0
+bet @ true 8: 150.0
+bet @ true 9: 175.0
+bet @ true 10: 190.0
+bet @ true 11: 215.0
+bet @ true 12: 230.0
+bet @ true 13: 260.0
+bet @ true 14: 290.0
+Program end at Thu Feb 24 16:28:25 PST 2022

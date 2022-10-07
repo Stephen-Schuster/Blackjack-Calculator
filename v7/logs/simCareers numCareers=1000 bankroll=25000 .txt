@@ -1,0 +1,26 @@
+
+Program start at Tue Feb 22 16:16:14 PST 2022
+Profit per hand with bankroll of $0.0-$12500.0: 0.1931705622805099
+Profit per hand with bankroll of $12500.0-$25000.0: 0.3691598903951383
+Profit per hand with bankroll of $25000.0-$37500.0: 0.5622944644009555
+Profit per hand with bankroll of $37500.0-$50000.0: 0.7883980373960715
+Profit per hand with bankroll of $50000.0-$62500.0: 0.9608176227477003
+Profit per hand with bankroll of $62500.0-$75000.0: 1.3233738067547922
+Profit per hand with bankroll of $75000.0-$87500.0: 1.3424982045565008
+Profit per hand with bankroll of $87500.0-$100000.0: 1.54148554538136
+Profit per hand with bankroll of $100000.0-$112500.0: 1.4983734293533428
+Profit per hand with bankroll of $112500.0-$125000.0: 1.7509388624516824
+Profit per hand with bankroll of $125000.0-$137500.0: 1.7110420065138994
+Profit per hand with bankroll of $137500.0-$150000.0: 2.026761791879071
+Profit per hand with bankroll of $150000.0-$162500.0: 2.078083910223866
+Profit per hand with bankroll of $162500.0-$175000.0: 2.282744090512652
+Profit per hand with bankroll of $175000.0-$187500.0: 2.484454645020935
+Profit per hand with bankroll of $187500.0-$200000.0: 2.2458336206659566
+Profit per hand with bankroll of $200000.0-$212500.0: 2.267155635461739
+Profit per hand with bankroll of $212500.0-$225000.0: 2.7660070301212927
+Profit per hand with bankroll of $225000.0-$237500.0: 2.4788201591527335
+Profit per hand with bankroll of $237500.0-$250000.0: 2.7505498865861875
+Risk of ruin: 0.012
+Hands per Shoe: 19.21273761535699
+Average hands to succeed: 190542.008097166
+Program end at Tue Feb 22 16:20:28 PST 2022

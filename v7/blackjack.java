@@ -40,7 +40,7 @@ public class blackjack {
     public static double kellyBetMultiplier = -1;
     //simulation settings
     public static int numShoes = -1, numCareers = 1000;
-    public static double startingBankroll = 10000,successThresholdPerBankroll = 10;
+    public static double startingBankroll = 20000,successThresholdPerBankroll = 10;
     public static int numUpdates = 100;//see update method
     public static int numProfitDivisions = 5;//how many sections should be used for "Profit per hand with Bankroll X-Y: (Profit)"
 
@@ -65,7 +65,9 @@ public class blackjack {
         if(num <= 0) return num+"";
         String toReturn = "";
         while(num > 0) {
-            toReturn = (num%1000)+","+toReturn;
+            String attach = num%1000 + "";
+            while(attach.length()<3 && num>=1000) attach = "0"+attach;
+            toReturn = attach+","+toReturn;
             num /= 1000;
         }
         return toReturn.substring(0,toReturn.length()-1);
@@ -106,7 +108,7 @@ public class blackjack {
                 }
             }
             for(int i = 0; i<numProfitDivisions; i++) {
-                String toLog = "Profit per hand with bankroll of $"+addCommas((int)(maxBankroll*i/numProfitDivisions))+"-$"+(int)(maxBankroll*(i+1)/numProfitDivisions/1000)+": "+(profitByBankroll[i]/handsByBankroll[i]);
+                String toLog = "Profit per hand with bankroll of $"+addCommas((int)(maxBankroll*i/numProfitDivisions))+"-$"+addCommas((int)(maxBankroll*(i+1)/numProfitDivisions))+": "+(profitByBankroll[i]/handsByBankroll[i]);
                 logln(toLog);
             }
             logln("Risk of ruin: "+((double)numRuins/numCareers));
